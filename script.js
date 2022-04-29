@@ -19,10 +19,12 @@ $('.upAnimation').textillate({ in: { effect: 'fadeInUp', delay: 25 } });
 
 document.querySelectorAll(".img").forEach(function (elem) {
     elem.addEventListener("mousemove", function (dets) {
+
         document.querySelector(".main").style.backgroundColor = dets.target.dataset.color
         document.querySelector(".svgdiv").style.display = "flex"
         document.querySelector(".svgdiv").style.transform = `translate(${dets.clientX - 40}px,${dets.clientY - 40}px)`
         document.querySelector("#movediv").style.display = "none"
+        
     })
 
     elem.addEventListener("mouseout", function () {
@@ -42,7 +44,6 @@ document.querySelectorAll(".img").forEach(function (elem) {
 
 document.querySelectorAll(".hovereffect").forEach(function (elem) {
     elem.addEventListener("mousemove", function (dets) {
-
         $("#movediv").css({
 
             "height": "80px",
@@ -53,7 +54,6 @@ document.querySelectorAll(".hovereffect").forEach(function (elem) {
             "z-index": "999999"
 
         })
-
     })
     elem.addEventListener("mouseout", function () {
         $("#movediv").css({

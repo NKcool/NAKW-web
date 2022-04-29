@@ -1,3 +1,10 @@
+
+@font-face {
+    font-family: myFont;
+    src: url(VANGUARD-CF-DEMI-BOLD.OTF);
+  }
+  
+
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +16,7 @@ body {
     width: 100%;
     min-height: 100%;
     background-color: #ffffff;
-    font-family: "vanguard cf demi bold";
+    font-family: "myFont";
 }
 
 .nav {
@@ -36,6 +43,7 @@ body {
 
 .top_text h1 {
     line-height: 13.653136531365314vw;
+    font-family: "Vanguard CF";
 }
 
 
@@ -117,7 +125,7 @@ body {
     height: 100vh;
     width: 100%;
     background-color: rgba(255, 255, 255, 0);
-    font-family: "Vanguard CF Demi Bold";
+    font-family: "myFont";
 }
 
 .NTEXT {
