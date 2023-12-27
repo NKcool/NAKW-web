@@ -311,3 +311,6 @@ body {
         margin: 20%;
     }
   }
+.content p{
+    width: 40vmax;
+}
