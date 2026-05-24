@@ -45,5 +45,5 @@ export const PROFILE = {
   name: 'Naveen Kewat',
   role: 'Python & AI Automation Developer',
   email: 'nkcool3956@gmail.com',
-  resume: '/resume.pdf'
+  resume: 'resume.pdf'
 };
